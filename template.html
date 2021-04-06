@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template page</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+  </head>
+  <body onload="company_information();">
+    <section class="header">
+      <div class="header_container">
+        <div class="header_block">Company Logo</div>
+        <div class="header_block"><h1>Company Name</h1></div>
+      </div>
+      <nav class="nav">
+        <div class="nav_container">
+          <button class="nav_button">Home</button>
+        </div>
+        <div class="nav_container">
+          <button class="nav_button">Our Service</button>
+          <div class="dropdown_container">
+            <button class="nav_button">dropdown button</button>
+          </div>
+        </div>
+        <div class="nav_container">
+          <button class="nav_button">Marketplace</button>
+          <div class="dropdown_container">
+            <button class="nav_button">dropdown button</button>
+          </div>
+        </div>
+        <div class="nav_container">
+          <button class="nav_button">About us</button>
+          <div class="dropdown_container">
+            <button class="nav_button">dropdown button</button>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="body">
+      <p>test text</p>
+    </section>
+    <section class="footer">
+      <p>Contact us at:</p>
+      <p class="first_company_no"></p>
+      <p class="second_company_no"></p>
+      <p>Creating solutions since <span class="company_year"></span></p>
+      <p>
+        © <span class="copyright_year"></span>
+        <span class="company_name_input"></span> All Rights Reserved.
+      </p>
+    </section>
+    <script src="./js/standard-script.js"></script>
+  </body>
+</html>

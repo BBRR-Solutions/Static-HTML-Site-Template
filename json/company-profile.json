@@ -1,0 +1,15 @@
+{
+  "company_name": "Company Name goes Here",
+  "contact_phones": {
+    "phone_1": "+52 (686) 568-6480",
+    "phone_2": "+52 (686) 337-1694"
+  },
+  "company_website": {
+    "display_name": "www.bbrr.solutions",
+    "href": "https://www.bbrr.solutions"
+  },
+  "contact_email": {
+    "display_name": "information@bbrr.solutions",
+    "href": "mailto:information@bbrr.solutions"
+  }
+}

@@ -1,0 +1,10 @@
+.privacy_policy {
+    font-size: 12px;
+}
+.privacy_policy >p {
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+}
+.privacy_policy > ul {
+    text-align: left;
+}

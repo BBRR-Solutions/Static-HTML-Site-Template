@@ -1,0 +1,27 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, a, fieldset, th, td, form, body {
+	font-family: Arial;
+}
+p {
+    text-align: justify;
+    margin: 0;
+}
+ul, li {
+	margin: 0;
+}
+body {
+	font-size: 16px;
+    margin: 0;
+}
+h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+	font-size: 18px;
+	margin: 0;
+}
+a:hover {
+	text-decoration: underline;
+}
