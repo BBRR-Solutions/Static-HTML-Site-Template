@@ -1,51 +1,52 @@
-.header {
+.Header {
   position: absolute;
   top: 0;
   padding-bottom: 10px;
   width: 100%;
 }
-.header_container {
+.HeaderContainer {
   background-color: #6c706c;
   display: inline-flex;
   width: 100%;
 }
-.header_block {
+.HeaderBlock {
   align-items: center;
   margin: auto;
 }
-.nav {
+.Nav {
   text-align: center;
   padding-bottom: 10px;
 }
-.nav_container {
+.NavContainer {
   display: inline-block;
-  background-color: blue;
+  background-color: lightblue;
   margin: 0;
   width: 15%;
   padding: 5px;
   min-width: 150px;
   vertical-align: top;
+  &:hover > .DropdownContainer {
+  display: inline-block;
+  }
 }
-.dropdown_container {
+.DropdownContainer {
   display: none;
   padding-top: 10px;
   padding-bottom: 5px;
 }
-.nav_button {
+.NavButton {
   width: 150px;
   background-color: transparent;
   border-radius: 10px;
-}
-.nav_button:focus {
+  &:hover {
   outline: none;
-}
-.nav_button:hover, .nav_button:focus {
   background-color: green;
+  }
+  &:focus {
+  background-color: green;
+  }
 }
-.nav_container:hover > .dropdown_container {
-  display: inline-block;
-}
-.body {
+.Body {
   width: 85%;
   min-width: 300px;
   margin: auto;
@@ -54,18 +55,31 @@
   padding: 10px;
   margin-bottom: 100px;
 }
-.footer {
+.Footer {
   width: 100%;
   background-color: lightgrey;
   position: fixed;
   bottom: 0;
   padding: 5px;
-}
-.footer > p {
+  & > p {
   font-size: 12px;
   text-align: center;
   font-weight: bold;
+  }
 }
-.company_name_input, .copyright_year, .company_contact_email {
+.CompanyNameInput, .CopyrightYear, .CompanyContactEmail {
   font-weight: bold;
+}
+.PrivacyPolicy {
+  font-size: 12px;
+  & > p {
+  margin-bottom: 7.5px;
+  margin-top: 7.5px;
+  }
+  & > ul {
+  text-align: left;
+  }
+}
+.TermsOfUse {
+  font-size: 12px;
 }
